@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* CSS PER HEADER  */
+.header{
+    height: 60px;
+    padding: 50px;
+    color: blue;
+}
+
+/* CSS PER NAVBAR  */
+.navbar{
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+/* CSS PER CONTAINER  */
+#container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#container .icons{
+    flex-basis: calc(100% / 6 - 20px);
+    padding: 30px;
+    margin: 30px;
+    background-color:cornsilk;
+    border-radius: 100px;
+    text-align: center;
+    box-shadow: (10px 10px 10px black);
+    font-family: 50px;
+}
+
+#container .icons i{
+    font-size: 50px;
+}
